@@ -66,4 +66,4 @@ if __name__ == '__main__':
             filename = r'./banfo/' + pic_url.split('/')[-2] + '.' + pic_url.split('=')[-1]  # 图片的路径
             download(filename, pic_url)
 
-
+#增加了连续爬取多篇文章的功能
