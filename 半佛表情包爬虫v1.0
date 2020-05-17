@@ -62,3 +62,5 @@ if __name__ == '__main__':
     for pic_url in url_list:
         filename = r'./banfo/' + pic_url.split('/')[-2] + '.' + pic_url.split('=')[-1]   # 图片的路径
         download(filename, pic_url)
+
+
